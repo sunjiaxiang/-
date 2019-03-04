@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="资讯">
+    <menu>
+    <item
+        android:id="@+id/nav_camera"
+        android:icon="@drawable/zhihu"
+        android:title="知乎日报" />
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@drawable/weixin"
+        android:title="微信精选" />
+    <item
+        android:id="@+id/nav_slideshow"
+        android:icon="@drawable/h"
+        android:title="干货集中营" />
+        <item
+            android:id="@+id/Re_nuggets"
+            android:icon="@drawable/display"
+            android:title="稀土掘金" />
+    <item
+        android:id="@+id/nav_manage"
+        android:icon="@drawable/cnv_2ex"
+        android:title="V2EX" />
+</menu>
+</item>
+    <item android:title="选择">
+        <menu>
+            <item
+                android:id="@+id/nav_Colow"
+                android:icon="@drawable/xin"
+                android:title="收藏" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/icon_setting_fill"
+                android:title="设置" />
+            <item
+                android:id="@+id/guan_yu"
+                android:icon="@drawable/guanyu"
+                android:title="关于" />
+        </menu>
+    </item>
+</menu>
